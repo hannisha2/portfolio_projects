@@ -1,156 +1,97 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Hanan's Information</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/Pic2.jpg" alt="" /></span>
-							<h1 id="title">Hanan Jemal</h1>
-							<p>Web Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Skills</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-						<ul class="icons">
-                     <li>
-                      <a href="https://t.me/hannisha1" target="_blank" class="icon brands fa-telegram-plane">
-                         <span class="label">Telegram</span>
-                           </a>
-                     </li>
-                     <li>
-                        <a href="https://www.linkedin.com/in/hannan-jemal-b2186b35a/" target="_blank" class="icon brands fa-linkedin-in">
-                             <span class="label">LinkedIn</span>
-                             </a>
-                          </li>
-                     <li>
-                        <a href="https://github.com/hannisha2" target="_blank" class="icon brands fa-github">
-                             <span class="label">GitHub</span>
-                               </a>
-                     </li>
-                     <li>
-                         <a href="mailto:hananjemal1235@gmail.com" class="icon solid fa-envelope">
-                             <span class="label">Email</span>
-                                </a>
-                             </li>
-                        </ul>
-	            </ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-
-				<!-- Intro -->
-					<section id="top" class="one dark cover" style="background-image: url('images/Pic1.jpg'); background-size: cover; background-position: center;">
-               <div class="container">
-        
-                  <header>
-                 <h2 class="alt">Hi! I'm <strong>Hanan</strong>,<br> a Web Developer.</h2>
-                   <p>Passionate about crafting modern, responsive, and efficient web interfaces.</p>
-                   </header>
-
-                  <footer>
-                     <a href="#portfolio" class="button scrolly">Get in touch</a>
-                    </footer>
-
-                </div>
-             </section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Skills</h2>
-							</header>
-
-							<p>Updating our life is a process of continuous personal development. By breaking
-							down large goals into small, manageable actions and performing them consistently as
-							habits, we can build momentum, gradually master new skills , and ultimately achieve
-							 a greater sense of confidence and fulfillment.These are some of my skills:</p>
-
-							<div class="row">
-  <!-- Technical Skills -->
-  <div class="col-6 col-12-mobile">
-    <article class="item">
-      <header>
-        <h2>Technical Skills</h2>
-      </header>
-      <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Node.js</li>
-        <li>Python & Java</li>
-        <li>Database Management (MySQL, MongoDB)</li>
-        <li>Version Control (Git & GitHub)</li>
-        <li>Network designer</li>
-      </ul>
-    </article>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="profile">
+      <img src="Pic2.jpg" alt="Photo" class="photo" />
+      <h2>Hanan Jemal</h2>
+      <p>Web Developer</p>
+    </div>
+    <nav>
+      <a href="#" class="nav-link active" data-section="intro"><i class="fa fa-home"></i> Intro</a>
+      <a href="#" class="nav-link" data-section="skills"><i class="fa fa-code"></i> Skills</a>
+      <a href="#" class="nav-link" data-section="about"><i class="fa fa-user"></i> About</a>
+      <a href="#" class="nav-link" data-section="contact"><i class="fa fa-envelope"></i> Contact</a>
+    </nav>
   </div>
 
-  <!-- Soft Skills -->
-  <div class="col-6 col-12-mobile">
-    <article class="item">
-      <header>
-        <h2>Soft Skills</h2>
-      </header>
-      <ul>
-        <li>Effective Communication</li>
-        <li>Team Collaboration</li>
-        <li>Problem Solving</li>
-        <li>Adaptability</li>
-        <li>Time Management</li>
-        <li>Leadership & Creativity</li>
-      </ul>
-    </article>
-  </div>
-</div>
+  <!-- Main Content -->
+  <main>
+    <!-- INTRO SECTION -->
+    <section id="intro" class="section visible">
+      <div class="content center">
+        <h1>Hi! I'm <span>Hanan</span>,<br>a Web Developer.</h1>
+        <p>Passionate about crafting modern, responsive, and efficient web interfaces.</p>
+        <button class="btn" id="contactBtn">Get in touch</button>
+      </div>
+    </section>
 
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <div class="content center">
+        <header>
+          <h2>Skills</h2>
+        </header>
 
-						</div>
-					</section>
+        <p>
+          Updating our life is a process of continuous personal development. By breaking
+          down large goals into small, manageable actions and performing them consistently as
+          habits, we can build momentum, gradually master new skills, and ultimately achieve
+          a greater sense of confidence and fulfillment. These are some of my skills:
+        </p>
 
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
+        <div class="skills-grid">
+          <!-- Technical Skills -->
+          <article class="item">
+            <header>
+              <h3>Technical Skills</h3>
+            </header>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Node.js</li>
+              <li>Python & Java</li>
+              <li>Database Management (MySQL, MongoDB)</li>
+              <li>Version Control (Git & GitHub)</li>
+              <li>Network Design</li>
+            </ul>
+          </article>
 
-							<header>
-								<h2> <b>About Me</b></h2>
-							</header>
+          <!-- Soft Skills -->
+          <article class="item">
+            <header>
+              <h3>Soft Skills</h3>
+            </header>
+            <ul>
+              <li>Effective Communication</li>
+              <li>Team Collaboration</li>
+              <li>Problem Solving</li>
+              <li>Adaptability</li>
+              <li>Time Management</li>
+              <li>Leadership & Creativity</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-							<a href="#" class="image featured"><img src="images/Pic5.jpg" alt=""  width="200" /></a>
-
-							<p>I am an Electrical and Computer Engineering student at Addis Ababa university with a growing passion for coding. 
+    <!-- ABOUT SECTION -->
+     <section id="about" class="section">
+      <div class="content about-layout">
+        <div class="about-image">
+          <img src="Pic2.jpg" alt="About Me Photo" height="300" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+         <p>I am an Electrical and Computer Engineering student at Addis Ababa university with a growing passion for coding. 
 								Through my university courses, I discovered how much I enjoy programming, and it quickly became
 								more than just an academic subject — it became a hobby.
 
@@ -162,23 +103,32 @@
 								personal and professional growth. My ultimate goal is to build a fulfilling career where I can be 
 								financially stable, intelligent, and kind — and to continue becoming the best version of myself.</p>
 
-						</div>
-					</section>
+        </div>
+      </div>
+    </section>
 
-				<!-- Contact -->
-					
-			</div>
-
-		<!-- Footer -->
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section">
+      <div class="content center">
+        <h2>Contact Me</h2>
+        <p>Let’s connect! You can reach me through any of the platforms below:</p>
+        <div class="contact-links">
+          <p><i class="fa fa-envelope"></i> 
+            <a href="mailto:hananjemal1235@gmail.com">hananjemal1235@gmail.com</a>
+          </p>
+          <p><i class="fa-brands fa-github"></i> 
+            <a href="https://github.com/hannisha2" target="_blank">GitHub</a>
+          </p>
+          <p><i class="fa-brands fa-linkedin"></i> 
+            <a href="https://www.linkedin.com/in/hannan-jemal-b2186b35a/" target="_blank">LinkedIn</a>
+          </p>
+          <p><i class="fa-brands fa-telegram"></i> 
+            <a href="https://t.me/hannisha1" target="_blank">Telegram</a>
+          </p>
+        </div>
+        <footer>© 2025 Your Name. All rights reserved.</footer>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
